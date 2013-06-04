@@ -8,7 +8,7 @@ alias refresh-mcx="sudo mcxrefresh -n $USER"
 alias rebuild-ls="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user"
 alias flush-dns="dscacheutil -flushcache"
 alias startcisco="sudo kextload /System/Library/Extensions/CiscoVPN.kext"
-alias cdvmware="cd '/Library/Application Support/VMware Fusion'"
+alias cdvmware="cd '/Applications/VMware Fusion.app/Contents/Library'"
 alias delete-dsstore="find . -name '.DS_Store' -delete"
 alias caba="ant clean_all build_all"
 
