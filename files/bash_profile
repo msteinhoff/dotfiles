@@ -1,0 +1,16 @@
+ADDPATH=""
+
+echo "--------------------------------------------------------------------------------"
+echo "I don't usually use the terminal. But when I do, I feel like god."
+echo ""
+. ~/.bash_library/bash
+. ~/.bash_library/env
+. ~/.bash_library/projects
+. ~/.bash_library/java
+. ~/.bash_library/python
+. ~/.bash_library/ruby
+. ~/.bash_library/tools
+echo ""
+echo "--------------------------------------------------------------------------------"
+
+export PATH=$ADDPATH:$PATH

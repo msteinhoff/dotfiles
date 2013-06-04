@@ -1,0 +1,45 @@
+export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home;
+
+# Apache ant
+export APP_ANT="$DEV/Apache-Ant/1.8.1"
+export ANT_HOME="$APP_ANT"
+export ANT_OPTS="-Xmx512M -XX:MaxPermSize=256m -Dfile.encoding=UTF-8"
+ADDPATH="$ADDPATH:$APP_ANT/bin"
+complete -C $APP_ANT/bin/complete-ant-cmd.pl ant
+
+
+
+# Apache maven
+export APP_MVN="$DEV/Apache-Maven/3.0.5"
+export M2_HOME="$APP_MVN"
+export M2="$M2_HOME/bin"
+export MAVEN_OPTS="-Xms256m -Xmx512m -Dfile.encoding=UTF-8"
+ADDPATH="$ADDPATH:$APP_MVN/bin"
+
+
+
+# Gradle
+export APP_GRADLE="$DEV/gradle-1.5"
+ADDPATH="$ADDPATH:$APP_GRADLE/bin"
+
+
+
+# YUI Compressor
+export APP_YUICOMPRESSOR="$DEV/Yahoo-yuicompressor/2.4.6"
+
+# Tomcat
+export APP_TOMCAT="$DEV/Apache-Tomcat/6.0.10"
+ADDPATH="$ADDPATH:$APP_TOMCAT/bin"
+
+
+
+# Android SDK
+export APP_ANDROID="$DEV/Google-Android/R11"
+ADDPATH="$ADDPATH:$APP_ANDROID/tools"
+ADDPATH="$ADDPATH:$APP_ANDROID/platform-tools"
+
+
+# JaWE
+export APP_JAWE="$DEV/JaWE/3.3.1"
+export JaWE_HOME=$APP_JAWE
+export JaWE_OPTS="-Xmx1024M"

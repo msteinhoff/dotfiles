@@ -1,0 +1,12 @@
+# Vagrant from pkg installer
+APP_VAGRANT="$APPS_SYS/Vagrant"
+ADDPATH="$ADDPATH:$APP_VAGRANT/bin"
+
+# Local ruby gems (replaced by RVM)
+#GEM_HOME="$HOME/.gem"
+#export GEM_HOME
+#ADDPATH="$ADDPATH:$GEM_HOME/bin"
+#ADDPATH="$ADDPATH:$GEM_HOME/ruby/1.8/bin"
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

@@ -1,0 +1,10 @@
+[color]
+	ui = auto
+[user]
+	name = Mario Steinhoff
+	email = mario.steinhoff@catapullt.de
+[core]
+	excludesfile = /Users/msteinhoff/.gitignore
+	editor = nano
+[mergetool]
+	keepBackup = true
