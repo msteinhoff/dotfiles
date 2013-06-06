@@ -1,8 +1,10 @@
 # Common aliases
 alias c="clear"
 alias ll="ls -alh"
+alias ncat="cat -n"
 
 # OS X aliases
+alias ff="open ."
 alias dr="defaults read"
 alias refresh-mcx="sudo mcxrefresh -n $USER"
 alias rebuild-ls="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user"
@@ -11,6 +13,7 @@ alias startcisco="sudo kextload /System/Library/Extensions/CiscoVPN.kext"
 alias cdvmware="cd '/Applications/VMware Fusion.app/Contents/Library'"
 alias delete-dsstore="find . -name '.DS_Store' -delete"
 alias caba="ant clean_all build_all"
+alias tower="gittower --status ."
 
 echo "Shortcuts: dr refresh-mcx rebuild-ls flush-dns cdvmware delete-dsstore caba"
 
