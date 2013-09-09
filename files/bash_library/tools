@@ -12,6 +12,7 @@ alias flush-dns="dscacheutil -flushcache"
 alias startcisco="sudo kextload /System/Library/Extensions/CiscoVPN.kext"
 alias cdvmware="cd '/Applications/VMware Fusion.app/Contents/Library'"
 alias delete-dsstore="find . -name '.DS_Store' -delete"
+alias find-dsstore="find . -name '.DS_Store'"
 alias caba="ant clean_all build_all"
 alias tower="gittower --status ."
 
