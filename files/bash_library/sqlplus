@@ -1,0 +1,3 @@
+export DYLD_LIBRARY_PATH=$APPS_USR/Development/oracle-instantclient-11.2
+export PATH=$PATH:$APPS_USR/Development/oracle-instantclient-11.2
+export TNS_ADMIN=$WORK/Personal/oracle/tns

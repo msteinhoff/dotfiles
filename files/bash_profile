@@ -6,6 +6,7 @@ echo ""
 . ~/.bash_library/bash
 . ~/.bash_library/env
 . ~/.bash_library/projects
+. ~/.bash_library/sqlplus
 . ~/.bash_library/java
 . ~/.bash_library/python
 . ~/.bash_library/ruby
@@ -14,3 +15,4 @@ echo ""
 echo "--------------------------------------------------------------------------------"
 
 export PATH=$ADDPATH:$PATH
+
