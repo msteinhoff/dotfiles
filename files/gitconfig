@@ -5,6 +5,6 @@
 	email = mario.steinhoff@catapullt.de
 [core]
 	excludesfile = /Users/msteinhoff/.gitignore
-	editor = nano
+	editor = "subl -n -w"
 [mergetool]
 	keepBackup = true
