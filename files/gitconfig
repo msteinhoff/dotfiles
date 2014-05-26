@@ -8,3 +8,5 @@
 	editor = "subl -n -w"
 [mergetool]
 	keepBackup = true
+[diff]
+	algorithm = patience
